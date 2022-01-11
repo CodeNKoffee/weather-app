@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <nav>
+      <figure class="logo__wrapper">
+        <img
+          src="../assets/Codenkoffee-08.png"
+          alt="CodeNKoffee"
+          class="logo"
+        />
+      </figure>
+      <ul class="nav__link--list">
+        <li class="nav__link">
+          <a href="">About</a>
+        </li>
+        <li class="nav__link">
+          <a href="">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="weather__modal">
+            <div class="left__side">
+              <figure class="weather__img--wrapper">
+                <img src="../assets/sunset plane.jpg" alt="sunset" />
+              </figure>
+              <div class="weather__info">
+                <h1 class="temprature">16°C</h1>
+                <div class="date__location">
+                  <h3 class="location">Cairo</h3>
+                  <div class="date__time">
+                    <h6 class="time">08:00</h6>
+                    <h6 class="date">Monday, 9 Feb 22</h6>
+                  </div>
+                </div>
+                <div class="weather__condition"></div>
+              </div>
+            </div>
+
+            <div class="right__side">
+              <nav class="weather__nav">
+                <input type="search" id="search__engine" placeholder="Search" />
+                <figure class="search__icon--wrapper"></figure>
+              </nav>
+              <div class="weather__engine">
+                <div class="select__cities">
+                  <h6 class="select__city">Cairo</h6>
+                  <h6 class="select__city">Madrid</h6>
+                  <h6 class="select__city">Toronto</h6>
+                  <h6 class="select__city">Singapore</h6>
+                </div>
+                <div class="weather__details">
+                  <h6 class="weather__detail">Cloudy</h6>
+                  <h6 class="weather__detail">Humidity</h6>
+                  <h6 class="weather__detail">Wind</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
